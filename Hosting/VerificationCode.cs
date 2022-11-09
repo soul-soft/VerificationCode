@@ -51,9 +51,9 @@ namespace SixLabors.ImageSharp
         }
         private static Color RandCololr()
         {
-            var r = (byte)Random.Shared.Next(0, 256);
-            var g = (byte)Random.Shared.Next(0, 256);
-            var b = (byte)Random.Shared.Next(0, 256);
+            var r = (byte)Random.Shared.Next(0, 120);
+            var g = (byte)Random.Shared.Next(0, 120);
+            var b = (byte)Random.Shared.Next(0, 120);
             return Color.FromRgb(r, g, b);
         }
         private static Color RandCololrA()
